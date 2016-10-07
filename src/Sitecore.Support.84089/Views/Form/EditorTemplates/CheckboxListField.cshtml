@@ -15,7 +15,7 @@
                 // Sitecore.Support.84089
                 if (Model.IsRequired)
                 {
-                    <input type="checkbox" value="@item.Value" id="@Html.IdFor(x => Model.Value)" name="@Html.NameFor(x => Model.Value)" @(item.Selected ? "checked" : string.Empty) class="input-validation-error" aria-required="true" data-val="true" data-val-ischecked="The @Model.Title field is required." data-val-ischecked-tracking="{7E86B2F5-ACEC-4C60-8922-4EB5AE5D9874}" data-val-required="The Value field is required." />
+                    <input type="checkbox" value="@item.Value" id="@Html.IdFor(x => Model.Value)" name="@Html.NameFor(x => Model.Value)" @(item.Selected ? "checked" : string.Empty) class="input-validation-error" aria-required="true" data-val="true" data-val-ischecked="@Model.Parameters["DynamicRequiredAttribute"].Replace("{0}", Model.Title)" data-val-ischecked-tracking="{7E86B2F5-ACEC-4C60-8922-4EB5AE5D9874}" />
                 }
                 else
                 {
