@@ -1,8 +1,8 @@
 # Sitecore.Support.84089
-Enable client validation for the `Checkbox List` field on AJAX MVC forms when the `Success Page` option is used
+Enables client validation for the `Checkbox List` field on AJAX ASP.NET MVC Forms when the `Success Page` option is used
 
 ## Description
-This patch enables client validation for the `Checkbox List` field on AJAX MVC forms when the `Success Page` option is used
+This patch enables client validation for the `Checkbox List` field on AJAX ASP.NET MVC Forms when the `Success Page` option is used
 
 ## License  
 This patch is licensed under the [Sitecore Corporation A/S License for GitHub](https://github.com/sitecoresupport/Sitecore.Support.84089/blob/master/LICENSE).  
